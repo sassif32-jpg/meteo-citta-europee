@@ -51,8 +51,8 @@ root_repo/
 
 ## Documentazione
 
-- [Guida all'installazione](docs/Installazione.md)
-- [Dettagli sulle API](docs/API.md)
+- [Guida all'installazione](docs/installazione.md)
+- [Dettagli sulle API](docs/api.md)
 - [Domande frequenti](docs/faq.md)
 
 ## Autore
