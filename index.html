@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <html lang="it">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid sfondo">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="meteo.html">Meteo attuale citta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citta.html">Città disponibili</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+    <h1>Benvenuto nel sito delle città europee</h1>
+    <p>E' un sito Multipagina che mostra dati meteo di città europee recuperati da API e Open-Meteo</p>
+</header>
+
+<main class="container">
+    <section>
+
+        <h2>"Cosa puoi fare in questo sito"</h2>
+        <p>"Puoi spostarti nelle varie sezioni delle città proposte utilizzando la navbar"</p>
+        <ul>
+        <li>La pagina <a href="meteo.html">Meteo</a> Mostra la situazione meteo</li>
+        <li>La pagina <a href="citta.html">Città</a> Mostra le città disponibili con la relativa situazione meteo usando la chiamata API: https://api.open-meteo.com/v1/forecast?latitude=43.7696&longitude=11.2558&current=temperature_2m,wind_speed_10m,weather_code&timezone=auto</li>
+        </ul>
+    </section>
+
+    <section>
+                <h2>Seleziona una città</h2>
+                <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h3 class="badge">Città</h3>
+                            <h4 class="card-title">Madrid</h4>
+                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Madrid</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h3 class="badge">Città</h3>
+                            <h4 class="card-title">Dublino</h4>
+                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Dublino</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h3 class="badge">Città</h3>
+                            <h4 class="card-title">Parigi</h4>
+                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Parigi</p>
+                        </div>
+                    </div> 
+                </div>
+</main>
+
+        <footer>
+            <h3>Autore: <strong> Sassi Francesca </strong></h3>
+            <p> Il codice del sito è disponibile sulla repository <a href="https://github.com/sassif32-jpg/dashboard-meteo-api">dashboard-meteo-api</a></p>
+
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+
+        </body>
+        </html>
