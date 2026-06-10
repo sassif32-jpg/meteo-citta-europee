@@ -12,21 +12,25 @@
     <body>
 
          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid sfondo">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="container-fluid sfondo">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Attenzione! Si è verificato un problema.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
+    </div>
+    <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="meteo.html">Meteo attuale citta</a>
+          <a class="nav-link" href="meteo.html"><strong>Meteo</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="citta.html">Città disponibili</a>
+          <a class="nav-link" href="citta.html"><strong>Città disponibili</strong></a>
         </li>
       </ul>
     </div>
@@ -34,14 +38,14 @@
 </nav>
 
 <header>
-    <h1>Benvenuto nel sito delle città europee</h1>
+    <h1><strong>Benvenuto nel sito delle città europee</strong></h1>
     <p>E' un sito Multipagina che mostra dati meteo di città europee recuperati da API e Open-Meteo</p>
 </header>
 
 <main class="container">
     <section>
 
-        <h2>"Cosa puoi fare in questo sito"</h2>
+        <h2>Cosa puoi fare in questo sito</h2>
         <p>"Puoi spostarti nelle varie sezioni delle città proposte utilizzando la navbar"</p>
         <ul>
         <li>La pagina <a href="meteo.html">Meteo</a> Mostra la situazione meteo</li>
@@ -50,14 +54,14 @@
     </section>
 
     <section>
-                <h2>Seleziona una città</h2>
+                <h2>Città disponibili</h2>
                 <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card" >
                         <div class="card-body">
                             <h3 class="badge">Città</h3>
-                            <h4 class="card-title">Madrid</h4>
-                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Madrid</p>
+                            <h4 class="card-title"><strong>Madrid</strong></h4>
+                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Madrid</p>
                         </div>
                     </div> 
                 </div>
@@ -66,8 +70,8 @@
                     <div class="card" >
                         <div class="card-body">
                             <h3 class="badge">Città</h3>
-                            <h4 class="card-title">Dublino</h4>
-                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Dublino</p>
+                            <h4 class="card-title"><strong>Dublino</strong></h4>
+                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Dublino</p>
                         </div>
                     </div> 
                 </div>
@@ -76,8 +80,18 @@
                     <div class="card" >
                         <div class="card-body">
                             <h3 class="badge">Città</h3>
-                            <h4 class="card-title">Parigi</h4>
-                            <p class="card-text"><strong>Mostra i dati caricati dalla chiamata API per la città di Parigi</p>
+                            <h4 class="card-title"><strong>Parigi</strong></h4>
+                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Parigi</p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" >
+                        <div class="card-body">
+                            <h3 class="badge">Città</h3>
+                            <h4 class="card-title"><strong>Firenze</strong></h4>
+                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Firenze</p>
                         </div>
                     </div> 
                 </div>
@@ -85,10 +99,10 @@
 
         <footer>
             <h3>Autore: <strong> Sassi Francesca </strong></h3>
-            <p> Il codice del sito è disponibile sulla repository <a href="https://github.com/sassif32-jpg/dashboard-meteo-api">dashboard-meteo-api</a></p>
+            <p> Il codice del sito è disponibile sulla repository <a href="https://github.com/sassif32-jpg/meteo-citta-europee">meteo-citta-europee</a></p>
 
         </footer>
-        
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
 

@@ -1,0 +1,21 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Madrid",
+      "body": "Temperatura: 22°C · Vento: 8 km/h · Codice meteo: 1",
+      "meta": "fallback"
+    },
+    {
+      "title": "Dublino",
+      "body": "Temperatura: 25°C · Vento: 10 km/h · Codice meteo: 0",
+      "meta": "fallback"
+    },
+    {
+      "title": "Parigi",
+      "body": "Temperatura: 20°C · Vento: 12 km/h · Codice meteo: 3",
+      "meta": "fallback"
+    }
+  ]
+}
