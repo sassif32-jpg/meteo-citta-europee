@@ -1,3 +1,4 @@
+
 header{
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
@@ -7,11 +8,6 @@ header{
 
 body{
     font-family: 'Courier New', Courier, monospace;
-}
-
-img{
-    width: 15%;
-    height: auto;
 }
 
 .sfondo{
@@ -24,8 +20,10 @@ img{
 }
 
 nav{
+    background-color: yellowgreen;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 footer{
     background-color: yellowgreen;
@@ -34,4 +32,3 @@ footer{
     color: aliceblue;
     padding: 3%;
 }
-

@@ -84,8 +84,8 @@ async function fetchJson(url) {
 async function loadOpenMeteoCurrent() {
   const cities = [
     { name: "Madrid", latitude: 40.3000, longitude: 30.4024 },
-    { name: "Dublino", latitude: 53.210, longitude: 61.537 },
-    { name: "Firenze", latitude: 43.4617, longitude: 11.1515 },
+    { name: "Dublino", latitude: 53.210, longitude: 6.1537 },
+    { name: "Lisbona", latitude: 38.4225, longitude: 9.0807 },
     { name: "Parigi", latitude: 48.8566, longitude: 2.3522 }
   ];
   const items = [];

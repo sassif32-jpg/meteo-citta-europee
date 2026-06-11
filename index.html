@@ -2,10 +2,12 @@
 <html>
     <html lang="it">
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        
+        
 
     </head>
 
@@ -13,11 +15,7 @@
 
          <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid sfondo">
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Attenzione! Si è verificato un problema.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
-    </div>
-    <a class="navbar-brand" href=""><strong>Navbar</strong></a>
+    <a class="navbar-brand" href="index.html"><strong>Mondo Meteo</strong></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,10 +25,10 @@
           <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="meteo.html"><strong>Meteo</strong></a>
+          <a class="nav-link" aria-current="page" href="meteo.html"><strong>Meteo</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="citta.html"><strong>Città disponibili</strong></a>
+          <a class="nav-link" aria-current="page" href="citta.html"><strong>Città disponibili</strong></a>
         </li>
       </ul>
     </div>
@@ -38,15 +36,14 @@
 </nav>
 
 <header>
-    <h1><strong>Benvenuto nel sito delle città europee</strong></h1>
+    <h1 class="text-center"><strong>Benvenuto nel sito delle città europee</strong></h1>
     <p>E' un sito Multipagina che mostra dati meteo di città europee recuperati da API e Open-Meteo</p>
 </header>
 
 <main class="container">
     <section>
-
         <h2>Cosa puoi fare in questo sito</h2>
-        <p>"Puoi spostarti nelle varie sezioni delle città proposte utilizzando la navbar"</p>
+        <p>Puoi spostarti nelle varie sezioni delle città proposte utilizzando la navbar</p>
         <ul>
         <li>La pagina <a href="meteo.html">Meteo</a> Mostra la situazione meteo</li>
         <li>La pagina <a href="citta.html">Città</a> Mostra le città disponibili con la relativa situazione meteo usando la chiamata API: https://api.open-meteo.com/v1/forecast?latitude=43.7696&longitude=11.2558&current=temperature_2m,wind_speed_10m,weather_code&timezone=auto</li>
@@ -54,48 +51,45 @@
     </section>
 
     <section>
-                <h2>Città disponibili</h2>
-                <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card" >
-                        <div class="card-body">
-                            <h3 class="badge">Città</h3>
-                            <h4 class="card-title"><strong>Madrid</strong></h4>
-                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Madrid</p>
-                        </div>
-                    </div> 
-                </div>
+            <h2>Città disponibili</h2>
 
-                <div class="col-md-4">
-                    <div class="card" >
-                        <div class="card-body">
-                            <h3 class="badge">Città</h3>
-                            <h4 class="card-title"><strong>Dublino</strong></h4>
-                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Dublino</p>
-                        </div>
-                    </div> 
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card" >
-                        <div class="card-body">
-                            <h3 class="badge">Città</h3>
-                            <h4 class="card-title"><strong>Parigi</strong></h4>
-                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Parigi</p>
-                        </div>
-                    </div> 
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card" >
-                        <div class="card-body">
-                            <h3 class="badge">Città</h3>
-                            <h4 class="card-title"><strong>Firenze</strong></h4>
-                            <p class="card-text">Mostra i dati caricati dalla chiamata API per la città di Firenze</p>
-                        </div>
-                    </div> 
-                </div>
-</main>
+            <div class="card-group">
+  <div class="card">
+    <img src="assets/immagini/bandiera-spagna.jpg" class="card-img-top" alt="bandiera Spagna" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Madrid</strong></h5>
+      <p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Madrid</strong></p>
+      <p class="card-text"><img src="assets/immagini/bandiera-norvegia.jpg" class="card-img-bottom" alt="bandiera Norvegia"><h5><strong>Norvegia</strong></h5><p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Oslo</strong></p></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/immagini/bandiera-irlanda.jpg" class="card-img-top" alt="bandiera Irlanda">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Dublino</strong></h5>
+      <p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Dublino</strong></p>
+      <p class="card-text"><img src="assets/immagini/bandiera-belgio.jpg" class="card-img-bottom" alt="bandiera Belgio"><h5><strong>Belgio</strong></h5><p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Bruxelles</strong></p></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/immagini/bandiera-francia.jpg" class="card-img-top" alt="bandiera Francia">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Parigi</strong></h5>
+      <p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Parigi</strong></p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
+    </div>
+      <div class="card">
+    <img src="assets/immagini/bandiera-portogallo.webp" class="card-img-top" alt="bandiera Portogallo">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Lisbona</strong></h5>
+      <p class="card-text"><strong>Dati caricati dalla chiamata API per la città di Lisbona</strong></p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
+    </div>
+  </div>
+</div>
+        </div>
+        </section>
+    </main>
 
         <footer>
             <h3>Autore: <strong> Sassi Francesca </strong></h3>
@@ -106,5 +100,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
 
-        </body>
-        </html>
+    </body>
+</html>

@@ -85,7 +85,7 @@ async function loadOpenMeteoCurrent() {
   const cities = [
     { name: "Madrid", latitude: 40.3000, longitude: 30.4024, info: "Capitale della Spagna" },
     { name: "Dublino", latitude: 53.210, longitude: 61.537,info: "Capitale dell'Irlanda" },
-    { name: "Firenze", latitude: 43.4617, longitude: 11.1515, info: "La Città del Giglio" },
+    { name: "Lisbona", latitude: 38.4225, longitude: 9.0807, info: "Capitale del Portogallo" },
     { name: "Parigi", latitude: 48.8566, longitude: 2.3522, info: "Capitale della Francia" }
   ];
   const items = [];
