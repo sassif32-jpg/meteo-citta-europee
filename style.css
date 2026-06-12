@@ -1,34 +1,43 @@
-
+html{
+    background-color: #4b0082;
+}
 header{
-    background-color: cornflowerblue;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff7f28;
     padding: 80px 0;
     margin-bottom: 20px;
 }
 
+
 body{
+    background-color: #4b0082;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .sfondo{
-    background-color: greenyellow;
+    background-color: #4b0082;
+}
+
+.sfondo1{
+    background-color: #ff7f28;
 }
 
 .card {
-    background-color: goldenrod;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff7f28;
+    
 }
 
 nav{
-    background-color: yellowgreen;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    
 }
 
+.nav-item{
+    margin-right: 40px;
+}
 
 footer{
-    background-color: yellowgreen;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff7f28;
     margin-top: 5%;
-    color: aliceblue;
+    color: black;
     padding: 3%;
 }
